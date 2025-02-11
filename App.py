@@ -24,7 +24,9 @@ from fastapi.responses import FileResponse
 import requests
 import os
 
+
 app = FastAPI()
+
 
 REPORTS_DIR = "static/reports"
 os.makedirs(REPORTS_DIR, exist_ok=True)
